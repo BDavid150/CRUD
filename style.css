@@ -1,0 +1,46 @@
+body {
+    background-color: #f8076b; 
+  }
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    color: #3498db;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #3498db;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+ 
+  th {
+    background-color: #aff806;
+    font-weight: bold;
+    text-align: left;
+    padding: 8px;
+  }
+  
+
+  td {
+    border-bottom: 1px solid #fcf7f7;
+    padding: 8px;
+  }
+  
+  /* Estilo para las filas impares (opcional) */
+  tr:nth-child(odd) {
+    background-color: #070ff6;
+  }
